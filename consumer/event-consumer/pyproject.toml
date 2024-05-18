@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "event-consumer"
+version = "0.1.0"
+description = ""
+authors = ["usmanashrf <usmanashraf1510@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiokafka = "^0.10.0"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+sqlmodel = "^0.0.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
